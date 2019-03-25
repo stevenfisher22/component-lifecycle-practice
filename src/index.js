@@ -96,7 +96,7 @@ class LifecycleDemo extends React.Component {
             <div>
                 <span>Counter: {this.state.counter}</span>
                 <button onClick={this.handleClick}>
-                    Cick to increment
+                    Click to increment
                 </button>
                 <button onClick={this.causeErrorNextRender}>
                     Throw an error
